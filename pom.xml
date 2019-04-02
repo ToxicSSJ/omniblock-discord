@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.omniblock.discord</groupId>
+  <artifactId>omniblockdiscord</artifactId>
+  <version>1.0.0.alpha</version>
+  <name>Omniblock Discord</name>
+  <description>Proyecto oficial del bot principal de Omniblock Network.</description>
+  
+  <repositories>
+  
+  	<repository>
+    	<id>jcenter</id>
+    	<name>jcenter-bintray</name>
+    	<url>http://jcenter.bintray.com</url>
+	</repository>
+  
+  </repositories>
+  
+    <dependencies>
+  
+  	<dependency>
+		<groupId>org.nanohttpd</groupId> <!-- <groupId>com.nanohttpd</groupId> for 2.1.0 and earlier -->
+		<artifactId>nanohttpd</artifactId>
+		<version>2.2.0</version>
+	</dependency>
+  
+  	<dependency>
+    	<groupId>org.gitlab4j</groupId>
+    	<artifactId>gitlab4j-api</artifactId>
+    	<version>4.7.4</version>
+	</dependency>
+  
+  	<dependency>
+    	<groupId>org.apache.httpcomponents</groupId>
+    	<artifactId>httpclient</artifactId>
+    	<version>4.5.4</version>
+    </dependency>
+  
+    <dependency>
+    	<groupId>com.jagrosh</groupId>
+    	<artifactId>JDA-Utilities</artifactId>
+    	<version>1.8</version>
+    	<scope>compile</scope>
+    </dependency>
+  
+    <dependency>
+    	<groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>2.5</version>
+    </dependency>
+  
+    <dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>3.7</version>
+    </dependency>
+  
+ 	<dependency>
+    	<groupId>net.dv8tion</groupId>
+    	<artifactId>JDA</artifactId>
+    	<version>3.3.1_308</version>
+	</dependency>
+
+  </dependencies>
+  
+</project>
